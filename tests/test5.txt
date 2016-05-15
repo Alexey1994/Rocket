@@ -1,0 +1,14 @@
+function f(n)
+	print n, ' ', n+1, '\n'
+	if n
+		f(n+1)
+	end
+	return n
+end
+
+f(4294967290)
+
+#push return
+#push base
+#push args
+#push local vars

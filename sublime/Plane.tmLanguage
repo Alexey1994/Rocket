@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Plane</string>
+
+	<key>comment</key>
+	<string>Plane Syntax: version 0.8</string>
+
+	<key>fileTypes</key>
+	<array>
+		<string></string>
+	</array>
+
+	<key>foldingStartMarker</key> 
+	<string>^\s*\b(function|local\s+function|if|for)\b|{[ \t]*$|\[\[</string> 
+  
+	<key>foldingStopMarker</key> 
+	<string>\bend\b|^\s*}|\]\]</string> 
+	
+	<key>scopeName</key>
+	<string>Plane</string>
+
+	<key>patterns</key>
+        <array>
+		<dict>
+			<key>name</key>
+			<string>keyword</string>
+
+			<key>match</key>
+			<string>if|else|return|for|while|break|continue|end|loop|\+|\-|\*|&lt;|&gt;|\=</string>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>storage.type</string>
+
+			<key>match</key>
+			<string>function|var</string>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>storage.type</string>
+
+			<key>match</key>
+			<string>\{,1\}()</string>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>comment</string>
+
+			<key>match</key>
+			<string>#.*$</string>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>constant.numeric</string>
+
+			<key>match</key>
+			<string>(?&lt;=[\W])\d{1,}(?=[\W]|$)</string>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>entity.name.function</string>
+
+			<key>match</key>
+			<string>\w(\d|\w){0,}\s{0,}(?=\()</string>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>entity.name.function</string>
+
+			<key>match</key>
+			<string>print|new</string>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>string</string>
+
+			<key>match</key>
+			<string>["|'].*["|']</string>
+		</dict>
+
+	</array>
+</dict>
+</plist>

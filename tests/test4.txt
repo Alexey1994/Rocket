@@ -1,0 +1,16 @@
+var f
+
+f={
+	name:   1
+	age:    50
+	height: 185	
+  }
+
+f.name=function()
+			print 9000
+	   end
+ 
+f.name()
+f.age=10
+
+print f.age

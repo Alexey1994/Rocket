@@ -1,0 +1,15 @@
+var f
+
+f=function()
+	print 314
+  end
+
+f()
+
+f=[0]
+
+f[0]=function()
+	print 123
+  end
+
+f[0]()

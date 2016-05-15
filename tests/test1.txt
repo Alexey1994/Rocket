@@ -1,0 +1,178 @@
+#Plane
+
+#1)интерпретатор
+#2)строки
+
+################################
+#          VM
+################################
+
+#ASSIGNMENT
+#
+#
+#
+#
+
+#int
+#float
+#ptr
+#array
+#string
+
+#if 0 - false
+#if 1 - true
+
+#if 0.0 - false
+#if 0.1 - true
+
+#if {} - true
+#if {name:'Alexey'} - true
+
+#if [] - true
+#if [1] - true
+
+#if "" - true
+#if "a" -true
+
+#int a=90
+#int a=arr[0]
+#int a=arr
+#arr[0]=9
+
+#var a=[a, [b, c+d]]
+#var set={
+#			name : Pinachet+Govrila
+#			id   : qwer
+#			ids  : { name:Alexey }
+#		}
+
+var a
+
+a=[1]
+a[0]=20
+
+#arr=[0, 0]
+
+#arr[0]=9
+
+#a=9
+
+print a
+
+#print arr, h
+
+#var a=function()
+#		print 'f'
+#	  end
+
+#var x=a.name[index].v()[los]
+#var t=a.a[1+1]
+#var u=a(0)
+
+#var a, b=1
+
+#var a, b=2+3
+
+#var set={name:a+b}
+
+#function f()
+#	print 'hello!'
+#end
+
+#function asd()
+#end
+
+#f(1+1)
+#f(c+1)
+
+#R sin=Math:sin(1.0)
+#R cos=Math:cos(1.0)
+
+#Z z=-8
+
+#f(2+a.a)()
+
+#f(a+a+asd(0+0))
+#f(a+b)
+#f(a+b)
+
+#f(2+3*8, 2+2+asd(asd()))
+
+#function f(a, b)
+#end
+
+#function name(a)
+#end
+
+#a.b.c.f(1, 2)
+
+#a.b.c.f(1, 2)
+#a.b.c.f(1, 2)
+#a.b.c.f(1, 2)
+
+#name()
+
+#a=10+9
+
+#a[0](1)
+#a[0]()
+#a[0]()
+
+#var a=[]
+#var Alexey, Queen
+
+#Alexey=Queen
+
+#var number=2 000 000 000 + 7 890 675 654 543 444
+
+#var t=0XFF
+
+#b.name=o
+
+#function fun()
+#end
+
+#function f()
+#	function f()
+#	end
+#end
+
+#import test
+
+#if a
+#	print '\nOk'
+#else if a
+#  	print '1'
+#else
+#  	print ' else:)'
+#end
+
+#loop
+#	print 'loop'
+#	break
+#end
+
+#while a
+#	print 'while', '\tAlexey'
+#	break
+#end
+
+#do
+#	print 'do'
+#	break
+#while a
+
+#if gh
+#	function fun(a, b)
+#		print 'bambuk'
+#	end
+#end
+
+#push EBP
+#mov EBP ESP
+
+#mov EAX [EBP+8] //arg1
+#mov EAX [EBP+12] //arg2
+
+#pop EBP
+#ret
